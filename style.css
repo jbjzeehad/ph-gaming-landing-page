@@ -1,1 +1,62 @@
+.border {
+    border: 1px solid rgb(255, 0, 102);
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* button */
+.primary-btn {
+    border: 0 solid rgb(231, 9, 179);
+    border-radius: 30px;
+    font-size: 8px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(231, 9, 179);
+    padding: 10px 20px;
+}
+
 /* navbar */
+
+nav {
+    position: sticky;
+}
+
+/* header */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* grid-template-columns: 50%; */
+}
+
+.sec-one {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+/* .top-l-s {} */
+
+
+.top-r-s {
+    margin-right: 20%;
+    padding-left: 2%;
+}
+
+.top-r-img {
+    width: 100%;
+}
+
+.bg-img {
+    background-image: url("images/bg.png");
+    width: 100%;
+}
+
+/* Top Section  */
+
+.sec-one {
+    background-color: rgba(255, 66, 165, 3%);
+}
+
+/* .sec-one-l-s {} */
