@@ -36,7 +36,10 @@ header {
     grid-template-columns: repeat(2, 50%);
 }
 
-/* .top-l-s {} */
+.top-l-s {
+    margin: 20px;
+    padding: 20px;
+}
 
 
 .top-r-s {
