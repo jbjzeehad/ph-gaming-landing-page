@@ -63,3 +63,64 @@ header {
 }
 
 /* .sec-one-l-s {} */
+
+
+
+
+
+/* Footer Section */
+
+footer {
+    background-color: rgba(11, 2, 35, 100%);
+    padding: 50px 100px;
+    display: grid;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}
+
+.f-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.f-1 p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.f-1 img {
+    width: 30%;
+    height: 30%;
+}
+
+.f-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.f-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.f-4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(255, 255, 255, 60%);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.f-5 {
+    color: rgb(255, 255, 255, 60%);
+    font-size: 11px;
+    font-weight: 500;
+}
