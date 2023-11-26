@@ -63,26 +63,51 @@ header {
 }
 
 /* .sec-one-l-s {} */
-/* Section 2 */
-.funcard {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    justify-items: center;
-}
 
+
+
+/* Section 2 */
 
 .funsection {
-    margin: 50px;
+    margin: 100px;
 }
 
 .funtitle {
     text-align: center;
 }
 
+.funtitle h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.funtitle span {
+    color: #F948B2;
+}
+
+.funtitle p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.funcard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
 .funcard img {
     width: 100%;
     height: auto;
+}
+
+.funcard p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
 }
 
 
