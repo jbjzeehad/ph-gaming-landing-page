@@ -63,6 +63,31 @@ header {
 }
 
 /* .sec-one-l-s {} */
+/* Section 2 */
+.funcard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+
+.funsection {
+    margin: 50px;
+}
+
+.funtitle {
+    text-align: center;
+}
+
+.funcard img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 
 /* Button Image section */
 
