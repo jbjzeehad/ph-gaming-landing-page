@@ -117,7 +117,9 @@ header {
 /* Section 2 */
 
 .funsection {
-    margin: 100px;
+    /* margin: 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .funtitle {
@@ -160,6 +162,103 @@ header {
     font-size: 20px;
     font-weight: 500;
     color: #534C64;
+}
+
+/* Section - 4 */
+
+.sec-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+}
+
+.s4-head {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.s4-head span {
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.s4-l {
+    /* margin-top: 70px; */
+    margin-left: 130px;
+    margin-right: 20px;
+    /* margin-bottom: 100px; */
+    text-align: end;
+    padding-left: 50px;
+}
+
+.s4-r {
+    /* margin-top: 70px; */
+    margin-left: 100px;
+    /* margin-bottom: 100px; */
+    position: relative;
+}
+
+.s4-img {
+    width: 80%;
+    height: auto;
+
+}
+
+.s4-img-2 {
+    width: 35%;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+}
+
+
+/* Section - 5 */
+
+.sec-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+
+}
+
+.s5-head {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.s5-head span {
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s5-l {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.s5-r {
+    margin-top: 70px;
+    margin-right: 130px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.s5-img {
+    width: 80%;
+    height: auto;
+
+}
+
+.s5-img-2 {
+    width: 35%;
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
 }
 
 /* Section - 6 */
