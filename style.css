@@ -162,11 +162,53 @@ header {
     color: #534C64;
 }
 
+/* Section - 6 */
 
+.sec-6 {
+    display: grid;
+    background-color: #FF42A5;
+    grid-template-columns: repeat(2, 1fr);
+    color: #FFFFFF;
+}
 
+.sec-6 img {
+    width: 100%;
+    height: auto;
+}
 
+.s6div-1 {
+    margin-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 
-/* Button Image section */
+.s6-head {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.s6-det {
+    font-size: 12px;
+}
+
+.s6-li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.s6-btn {
+    border: 0;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(231, 9, 179);
+    background-color: white;
+    padding: 10px 20px;
+}
+
+/* Button Image section section - 7 */
 
 .btn-img {
     display: grid;
