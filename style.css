@@ -112,6 +112,10 @@ header {
 
 /* .sec-one-l-s {} */
 
+.sec-one-l-s img {
+    width: 100%;
+}
+
 
 
 /* Section 2 */
