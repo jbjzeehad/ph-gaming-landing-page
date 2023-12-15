@@ -120,6 +120,12 @@ header {
     padding: 10px;
 }
 
+.sec-one-r-s h2 {
+    font-size: 48px;
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 /* Section 2 */
